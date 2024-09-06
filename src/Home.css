@@ -1,0 +1,54 @@
+/* Home.css */
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #1a1a1a;
+    color: #f1c40f;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+  }
+  
+  .home h1 {
+    font-size: 2rem;
+    color: #ffffff;
+    margin-bottom: 1rem;
+  }
+  
+  .home h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0;
+    animation: typing 3s steps(20, end), blink-caret 0.75s step-end infinite;
+  }
+  
+  /* Typing effect */
+  @keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: #f1c40f; }
+  }
+  
+  /* Cursor effect */
+  .home h2::after {
+    content: '|';
+    animation: blink-caret 0.75s step-end infinite;
+  }
+  
+  /* Customize the layout to fit the screen */
+  @media (max-width: 768px) {
+    .home h1 {
+      font-size: 1.5rem;
+    }
+  
+    .home h2 {
+      font-size: 2rem;
+    }
+  }
+  

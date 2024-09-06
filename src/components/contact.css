@@ -1,0 +1,40 @@
+.contact-section {
+    background-color: #1c1c1c; /* Dark background */
+    color: #f5e347; /* Light yellow text color */
+    font-family: 'Lucida Console', Courier, monospace;
+    padding: 4rem;
+    text-align: center;
+  }
+  
+  .contact-title {
+    font-size: 4rem;
+    color: #f5e347; /* Bright yellow color */
+    margin-bottom: 1.5rem;
+  }
+  
+  .contact-info {
+    margin: 0 auto;
+    max-width: 800px;
+    font-size: 1.4rem;
+  }
+  
+  .contact-item {
+    margin-bottom: 2rem;
+    color: #ffffff; /* White text for items */
+  }
+  
+  .contact-item a {
+    color: #f5e347; /* Bright blue links */
+    text-decoration: none;
+  }
+  
+  .contact-item a:hover {
+    color: #a5d200; /* Darker blue on hover */
+  }
+  
+  @media (max-width: 768px) {
+    .contact-info {
+      font-size: 1.2rem;
+    }
+  }
+  

@@ -1,0 +1,61 @@
+.about-container {
+  background-color: #1c1c1c; /* Dark background */
+  color: #f5e347; /* Light yellow text color */
+  font-family: 'Lucida Console', Courier, monospace;
+  padding: 4rem; /* Increased padding */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-heading {
+  font-size: 4rem;
+  color: #f5e347; /* Bright yellow color */
+  margin-bottom: 1.5rem;
+}
+
+.about-description {
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #f5e347; /* Yellow color for the description */
+}
+
+.about-summary {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  gap: 2rem;
+}
+
+.about-left, .about-right {
+  width: 50%;
+  font-size: 0.8 rem; /* Make text larger */
+  line-height: 1.5;
+  text-align: left;
+  white-space: pre-wrap;
+  color: #ffffff; /* Left section text color */
+}
+
+.about-right {
+  color: #f5e347; /* Bright yellow for the right section */
+}
+
+.read-more-link {
+  background-color: #03a9f4;
+  color: #ffffff;
+  border: none;
+  padding: 1.2rem 3rem;
+  font-size: 1.3rem;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: 'Lucida Console', Courier, monospace;
+  margin-top: 2rem;
+  display: inline-block;
+}
+
+.read-more-link:hover {
+  background-color: #0288d1;
+}

@@ -1,0 +1,30 @@
+.resume-section {
+    background-color: #1c1c1c; /* Dark background */
+    color: #f5e347; /* Light yellow text color */
+    font-family: 'Lucida Console', Courier, monospace;
+    padding: 4rem;
+    text-align: center;
+  }
+  
+  .resume-title {
+    font-size: 4rem;
+    color: #f5e347; /* Bright yellow color */
+    margin-bottom: 1.5rem;
+  }
+  
+  .resume-description {
+    font-size: 1.2rem;
+    color: #ffffff; /* White text */
+    margin-bottom: 2rem;
+  }
+  
+  .resume-download {
+    font-size: 1.5rem;
+    color: #03a9f4; /* Bright blue color */
+    text-decoration: none;
+  }
+  
+  .resume-download:hover {
+    color: #0288d1; /* Darker blue on hover */
+  }
+  

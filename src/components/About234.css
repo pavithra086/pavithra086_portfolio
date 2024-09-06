@@ -1,0 +1,102 @@
+/* Section layout */
+.about-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    background-color: #2b2929;
+  }
+  
+  /* Container layout */
+  .profile-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    background-color: #979494;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  /* Left column (image) */
+  .profile-image-container {
+    padding: 50px 0;
+    flex: 1;
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+  .profile-image {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+  }
+  
+  /* Right column (content) */
+  .profile-details {
+    flex: 2;
+    padding: 20px;
+  }
+  
+  /* Title styling */
+  .profile-title {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Introduction text */
+  .profile-intro {
+    font-size: 1.2rem;
+    color: #010101;
+    line-height: 1.8;
+  }
+  
+  /* Text content */
+  .profile-description {
+    font-size: 1rem;
+    color: #444;
+    line-height: 1.8;
+    margin-bottom: 20px;
+  }
+  
+  .profile-description strong {
+    color: #000;
+  }
+  
+  /* List of achievements */
+  .profile-list {
+    margin-top: 10px;
+    padding-left: 20px;
+  }
+  
+  /* Button styling */
+  .profile-read-more {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: rgb(16, 14, 14);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .profile-read-more:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .profile-container {
+      flex-direction: column;
+    }
+  
+    .profile-image-container {
+      margin-bottom: 20px;
+    }
+  
+  
+    .profile-subtitle{
+        font-size: 1rem;
+        color: #0b0a0a;
+    }
+  }
