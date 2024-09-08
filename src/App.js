@@ -35,10 +35,10 @@ const ConditionalHeader = () => {
   if (
     location.pathname !== "/about1" &&
     location.pathname !== "/" &&
-    location.pathname !== "/portfoliosection" &&
-    location.pathname !== "/EmployeeNewHireOnboardingAutomation1" &&
-    location.pathname !== "/contact" &&
-    location.pathname !== "/RailwayReservationSystem"
+    location.pathname !== "/pavithra086_portfolio/portfoliosection" &&
+    location.pathname !== "/pavithra086_portfolio/EmployeeNewHireOnboardingAutomation1" &&
+    location.pathname !== "/pavithra086_portfolio/contact" &&
+    location.pathname !== "/pavithra086_portfolio/RailwayReservationSystem"
   ) {
     return <Header />;
   }

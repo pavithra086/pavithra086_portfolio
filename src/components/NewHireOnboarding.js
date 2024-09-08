@@ -6,7 +6,7 @@ import Picture1 from './img/Picture1.png';
 const EmployeeNewHireOnboardingAutomation = () => {
   return (
     <section className="project-detail-section">
-      <Link to="/portfolio">Back to Portfolio</Link>
+      <Link to="/pavithra086_portfolio/portfoliosection">Back to Portfolio</Link>
       <h2>Employee New Hire Onboarding Automation</h2>
       <h3>Overview</h3>
       <p>
