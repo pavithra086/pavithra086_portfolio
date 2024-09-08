@@ -16,7 +16,7 @@ const App = () => {
     <Router>
       <ConditionalHeader />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/pavithra086_portfolio" element={<Home />} />
         <Route path="/about1" element={<About1 />} />
         <Route path="/portfolio" element={<PortfolioSection />}/>
         <Route path="/EmployeeNewHireOnboardingAutomation1" element={<EmployeeNewHireOnboardingAutomation />}/>
