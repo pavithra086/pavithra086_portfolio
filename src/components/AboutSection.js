@@ -22,7 +22,7 @@ My expertise in databases includes MongoDB, which offers the flexibility to mana
           <p>Currently, I work as a Senior Software Engineer at Capgemini Technology Services India, where I apply my full-stack skills to enhance application performance and user experience. I’ve utilized tools like New Relic APM for proactive monitoring, identifying and addressing performance bottlenecks, which has reduced downtime by 20% and ensured 99% SLA adherence. Additionally, I’ve led automation initiatives using UiPath, automating repetitive tasks to improve efficiency and reduce manual intervention, allowing the development team to focus on core functionality.</p>
         </div>
       </div>
-      <Link to="pavithra086_portfolio/about1" className="read-more-link">Read More</Link>
+      <Link to="/about1" className="read-more-link">Read More</Link>
     </section>
   );
 }

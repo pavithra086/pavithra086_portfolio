@@ -14,13 +14,14 @@ const App = () => {
     <Router>
       <ConditionalHeader />
       <Routes>
-        <Route path="/pavithra086_portfolio/" element={<Home />} />
-        <Route path="/pavithra086_portfolio/about1" element={<About1 />} />
-        <Route path="/pavithra086_portfolio/portfoliosection" element={<PortfolioSection />} />
-        <Route path="/pavithra086_portfolio/EmployeeNewHireOnboardingAutomation1" element={<EmployeeNewHireOnboardingAutomation />} />
-        <Route path="/pavithra086_portfolio/RailwayReservationSystem" element={<RailwayReservationSystem />} />
-        <Route path="/pavithra086_portfolio/aboutsection" element={<AboutSection />} />
-        <Route path="/pavithra086_portfolio/contact" element={<Contact />} />
+        {/* HashRouter does not need the full path */}
+        <Route path="/" element={<Home />} />
+        <Route path="/about1" element={<About1 />} />
+        <Route path="/portfoliosection" element={<PortfolioSection />} />
+        <Route path="/EmployeeNewHireOnboardingAutomation1" element={<EmployeeNewHireOnboardingAutomation />} />
+        <Route path="/RailwayReservationSystem" element={<RailwayReservationSystem />} />
+        <Route path="/aboutsection" element={<AboutSection />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </Router>
   );
@@ -29,15 +30,15 @@ const App = () => {
 // Conditional Header component based on the current route
 const ConditionalHeader = () => {
   const location = useLocation();
-  
+
   // Only render Header on specific routes
   if (
-    location.pathname !== "/pavithra086_portfolio/about1" &&
-    location.pathname !== "/pavithra086_portfolio/" &&
-    location.pathname !== "/pavithra086_portfolio/portfoliosection" &&
-    location.pathname !== "/pavithra086_portfolio/EmployeeNewHireOnboardingAutomation1" &&
-    location.pathname !== "/pavithra086_portfolio/contact" &&
-    location.pathname !== "/pavithra086_portfolio/RailwayReservationSystem"
+    location.pathname !== "/about1" &&
+    location.pathname !== "/" &&
+    location.pathname !== "/portfoliosection" &&
+    location.pathname !== "/EmployeeNewHireOnboardingAutomation1" &&
+    location.pathname !== "/contact" &&
+    location.pathname !== "/RailwayReservationSystem"
   ) {
     return <Header />;
   }

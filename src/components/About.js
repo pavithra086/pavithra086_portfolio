@@ -19,7 +19,7 @@ const About = () => {
           My journey in tech has led me to explore various aspects of software engineering, from automating processes using <span>UiPath</span> to leading innovation initiatives. I thrive on solving complex problems and delivering efficient solutions. Outside of work, I love diving into new tech trends and pushing the boundaries of what’s possible with code. I'm always open to learning, growing, and taking on new challenges.
         </div>
       </div>
-      <button><Link to="pavithra086_portfolio/about1" className="read-more-button">{`{read_more}`}</Link></button>
+      <button><Link to="/about1" className="read-more-button">{`{read_more}`}</Link></button>
     </section>
   );
 };
