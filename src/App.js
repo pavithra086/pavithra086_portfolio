@@ -31,7 +31,7 @@ const ConditionalHeader = () => {
   const location = useLocation();
   
   // Only render Header on specific routes
-  if (location.pathname !== "/about1" && location.pathname !== "/" && location.pathname !== "/portfolio" && location.pathname !== "/EmployeeNewHireOnboardingAutomation1" && location.pathname !== "/contact" && location.pathname !== "/RailwayReservationSystem" && location.pathname !== "/") {
+  if (location.pathname !== "/about1" && location.pathname !== "/" && location.pathname !== "/portfoliosection" && location.pathname !== "/EmployeeNewHireOnboardingAutomation1" && location.pathname !== "/contact" && location.pathname !== "/RailwayReservationSystem" && location.pathname !== "/") {
     return <Header />;
   }
 
