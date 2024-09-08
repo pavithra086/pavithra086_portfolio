@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes, useLocation } from "react-router-dom";
+import { HashRouter as Router, Route, Routes, useLocation } from "react-router-dom";
 import Header from "./components/Header";
 import About1 from "./components/About1";
 import AboutSection from "./components/AboutSection";
@@ -21,7 +21,6 @@ const App = () => {
         <Route path="/RailwayReservationSystem" element={<RailwayReservationSystem />} />
         <Route path="/aboutsection" element={<AboutSection />} />
         <Route path="/contact" element={<Contact />} />
-        {/* Add other routes as needed */}
       </Routes>
     </Router>
   );
@@ -32,7 +31,7 @@ const ConditionalHeader = () => {
   const location = useLocation();
   
   // Only render Header on specific routes
-  if (location.pathname !== "/about1" && location.pathname !== "/" && location.pathname !== "/portfolio" && location.pathname !== "/EmployeeNewHireOnboardingAutomation1" && location.pathname !== "/contact" && location.pathname !== "/RailwayReservationSystem" && location.pathname !== "/pavithra086_portfolio") {
+  if (location.pathname !== "/about1" && location.pathname !== "/" && location.pathname !== "/portfoliosection" && location.pathname !== "/EmployeeNewHireOnboardingAutomation1" && location.pathname !== "/contact" && location.pathname !== "/RailwayReservationSystem" && location.pathname !== "/pavithra086_portfolio") {
     return <Header />;
   }
   
