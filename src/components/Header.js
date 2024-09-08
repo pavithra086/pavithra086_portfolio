@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom"; // Import Link
-import backgroundImg from "../components/img/images.jpg"; // Ensure the correct path to the image
+ // Ensure the correct path to the image
 
 // Header container with updated background color and padding
 const HeaderWrapper = styled.div`
@@ -70,15 +70,7 @@ const TerminalText = styled.div`
   }
 `;
 
-// Background image styling
-const BackgroundImage = styled.div`
-  background-image: url(${backgroundImg});
-  background-size: cover;
-  background-position: center;
-  height: 500px;
-  width: 100%;
-  position: relative;
-`;
+
 
 const Header = () => {
   const [displayedText, setDisplayedText] = useState("");
@@ -115,7 +107,7 @@ const Header = () => {
         <Link to="/about1">_about</Link>
         <a href="https://github.com/pavithra086" target="_blank" rel="noopener noreferrer">_github</a>
         
-        <a href="/portfolio">_projects</a>
+        <a href="/portfoliosection">_projects</a>
         <a href="\Pavithra.pdf" download className="resume-download">
         _resume
       </a>
@@ -130,8 +122,9 @@ const Header = () => {
         </TerminalText>
         
       </ContentWrapper>
-      <BackgroundImage />
+      
     </HeaderWrapper>
+    
   );
 };
 
