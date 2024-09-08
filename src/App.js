@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes, useLocation } from "react-router-dom";
+import { HashRouter as Router, Route, Routes, useLocation } from "react-router-dom";
 import Header from "./components/Header";
 import About1 from "./components/About1";
 import AboutSection from "./components/AboutSection";
@@ -21,22 +21,28 @@ const App = () => {
         <Route path="/RailwayReservationSystem" element={<RailwayReservationSystem />} />
         <Route path="/aboutsection" element={<AboutSection />} />
         <Route path="/contact" element={<Contact />} />
-        {/* Add other routes as needed */}
       </Routes>
     </Router>
   );
 };
 
-// This component conditionally renders the Header based on the route
+// Conditional Header component based on the current route
 const ConditionalHeader = () => {
   const location = useLocation();
   
   // Only render Header on specific routes
-  if (location.pathname !== "/about1" && location.pathname !== "/" && location.pathname !== "/portfolio" && location.pathname !== "/EmployeeNewHireOnboardingAutomation1" && location.pathname !== "/contact" && location.pathname !== "/RailwayReservationSystem" && location.pathname !== "/pavithra086_portfolio") {
+  if (
+    location.pathname !== "/about1" && 
+    location.pathname !== "/pavithra086_portfolio" && 
+    location.pathname !== "/portfoliosection" && 
+    location.pathname !== "/EmployeeNewHireOnboardingAutomation1" && 
+    location.pathname !== "/contact" && 
+    location.pathname !== "/RailwayReservationSystem"
+  ) {
     return <Header />;
   }
-  
-  return null; // Don't render the Header on /about1
+
+  return null; // Don't render the Header on specific routes
 };
 
 export default App;
