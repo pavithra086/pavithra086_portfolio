@@ -6,7 +6,7 @@ import picture2 from './img/picture2.png';
 const RailwayReservationSystem = () => {
     return (
       <section className="project-detail-section">
-        <Link to="/portfolio">Back to Portfolio</Link>
+        <Link to="/pavithra086_portfolio/#/portfolio">Back to Portfolio</Link>
         <h2>Railway Reservation System</h2>
         <h3>Overview</h3>
         <p>

@@ -17,11 +17,11 @@ const App = () => {
         {/* HashRouter does not need the full path */}
         <Route path="/" element={<Home />} />
         <Route path="/about1" element={<About1 />} />
-        <Route path="/portfoliosection" element={<PortfolioSection />} />
-        <Route path="/EmployeeNewHireOnboardingAutomation1" element={<EmployeeNewHireOnboardingAutomation />} />
-        <Route path="/RailwayReservationSystem" element={<RailwayReservationSystem />} />
+        <Route path="/pavithra086_portfolio/#/portfoliosection" element={<PortfolioSection />} />
+        <Route path="/pavithra086_portfolio/#/EmployeeNewHireOnboardingAutomation1" element={<EmployeeNewHireOnboardingAutomation />} />
+        <Route path="/pavithra086_portfolio/#/RailwayReservationSystem" element={<RailwayReservationSystem />} />
         <Route path="/aboutsection" element={<AboutSection />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/pavithra086_portfolio/#/contact" element={<Contact />} />
       </Routes>
     </Router>
   );
@@ -35,10 +35,10 @@ const ConditionalHeader = () => {
   if (
     location.pathname !== "/about1" &&
     location.pathname !== "/" &&
-    location.pathname !== "/pavithra086_portfolio/portfoliosection" &&
-    location.pathname !== "/pavithra086_portfolio/EmployeeNewHireOnboardingAutomation1" &&
-    location.pathname !== "/pavithra086_portfolio/contact" &&
-    location.pathname !== "/pavithra086_portfolio/RailwayReservationSystem"
+    location.pathname !== "/pavithra086_portfolio/#/portfoliosection" &&
+    location.pathname !== "/pavithra086_portfolio/#/EmployeeNewHireOnboardingAutomation1" &&
+    location.pathname !== "/pavithra086_portfolio/#/contact" &&
+    location.pathname !== "/pavithra086_portfolio/#/RailwayReservationSystem"
   ) {
     return <Header />;
   }
