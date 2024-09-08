@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/pavithra086_portfolio/static/css/main.c3d54d29.css",
+    "main.js": "/pavithra086_portfolio/static/js/main.c997522f.js",
+    "static/js/453.aac68abc.chunk.js": "/pavithra086_portfolio/static/js/453.aac68abc.chunk.js",
+    "static/media/presentation.mp4": "/pavithra086_portfolio/static/media/presentation.de8d3404647bb17f7a75.mp4",
+    "static/media/Picture1.png": "/pavithra086_portfolio/static/media/Picture1.4dccd9029687e03c515d.png",
+    "static/media/picture2.png": "/pavithra086_portfolio/static/media/picture2.8138bf3a6a3bdf475434.png",
+    "static/media/pic3.png": "/pavithra086_portfolio/static/media/pic3.4a06087e16e20aabab0c.png",
+    "index.html": "/pavithra086_portfolio/index.html",
+    "main.c3d54d29.css.map": "/pavithra086_portfolio/static/css/main.c3d54d29.css.map",
+    "main.c997522f.js.map": "/pavithra086_portfolio/static/js/main.c997522f.js.map",
+    "453.aac68abc.chunk.js.map": "/pavithra086_portfolio/static/js/453.aac68abc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c3d54d29.css",
+    "static/js/main.c997522f.js"
+  ]
+}
