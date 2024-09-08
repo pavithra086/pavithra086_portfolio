@@ -104,14 +104,14 @@ const Header = () => {
     <HeaderWrapper>
       <NavMenu>
         <a href="#home">_home</a>
-        <Link to="/about1">_about</Link>
+        <Link to="pavithra086_portfolio/about1">_about</Link>
         <a href="https://github.com/pavithra086" target="_blank" rel="noopener noreferrer">_github</a>
         
-        <a href="/portfoliosection">_projects</a>
+        <a href="pavithra086_portfolio/portfoliosection">_projects</a>
         <a href="\Pavithra.pdf" download className="resume-download">
         _resume
       </a>
-        <a href="/contact">_contact</a>
+        <a href="pavithra086_portfolio/contact">_contact</a>
         <a href="https://pavithra086.github.io/" target="_blank" rel="noopener noreferrer">_blog</a>
       </NavMenu>
       <ContentWrapper>

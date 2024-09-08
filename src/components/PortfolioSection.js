@@ -30,7 +30,7 @@ const PortfolioSection = () => {
           <h3>{'{Employee New Hire Onboarding Automation}'}</h3>
           <p>//...implementation of an automation process to streamline the onboarding of new hires</p>
           
-          <a href="/EmployeeNewHireOnboardingAutomation1" style={{ color: "white" }}>
+          <a href="pavithra086_portfolio/EmployeeNewHireOnboardingAutomation1" style={{ color: "white" }}>
            click here to Know More
            </a>
         </div>
@@ -50,7 +50,7 @@ const PortfolioSection = () => {
           <source src={presentation} type="video/mp4" />
           </video>
           <p>This project is designed for the online reservation of railway tickets.</p>
-          <a href="/RailwayReservationSystem" style={{ color: "white" }}>
+          <a href="pavithra086_portfolio/RailwayReservationSystem" style={{ color: "white" }}>
            click here to Know More
            </a>
         </div>
