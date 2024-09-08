@@ -14,7 +14,7 @@ const App = () => {
     <Router>
       <ConditionalHeader />
       <Routes>
-        <Route path="/pavithra086_portfolio" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/about1" element={<About1 />} />
         <Route path="/portfoliosection" element={<PortfolioSection />} />
         <Route path="/EmployeeNewHireOnboardingAutomation1" element={<EmployeeNewHireOnboardingAutomation />} />
@@ -31,7 +31,7 @@ const ConditionalHeader = () => {
   const location = useLocation();
   
   // Only render Header on specific routes
-  if (location.pathname !== "/about1" && location.pathname !== "/" && location.pathname !== "/portfolio" && location.pathname !== "/EmployeeNewHireOnboardingAutomation1" && location.pathname !== "/contact" && location.pathname !== "/RailwayReservationSystem" && location.pathname !== "/pavithra086_portfolio") {
+  if (location.pathname !== "/about1" && location.pathname !== "/" && location.pathname !== "/portfolio" && location.pathname !== "/EmployeeNewHireOnboardingAutomation1" && location.pathname !== "/contact" && location.pathname !== "/RailwayReservationSystem" && location.pathname !== "/") {
     return <Header />;
   }
 
